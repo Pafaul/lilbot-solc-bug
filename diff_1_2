@@ -1,0 +1,4 @@
+53c53
+<     function receiveA(uint a) public {
+---
+>     function receiveA(uint b) public {

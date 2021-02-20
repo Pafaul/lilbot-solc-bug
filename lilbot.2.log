@@ -1,0 +1,42 @@
+Warning: It's deprecated. Consider adding "pragma ton-solidity ^0.36.0;" to set a version of the compiler.
+ --> lilbot.sol:1:1:
+  |
+1 | pragma solidity >= 0.6.0;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Warning: It's deprecated. Consider adding "pragma ton-solidity ^0.36.0;" to set a version of the compiler.
+ --> /home/pavel/tonswap/tonswap-SC/contracts/debot/interfaces/AddressInput.sol:1:1:
+  |
+1 | pragma solidity >= 0.6.0;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Warning: It's deprecated. Consider adding "pragma ton-solidity ^0.36.0;" to set a version of the compiler.
+ --> /home/pavel/tonswap/tonswap-SC/contracts/debot/interfaces/Debot.sol:2:1:
+  |
+2 | pragma solidity >= 0.6.0;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Warning: It's deprecated. Consider adding "pragma ton-solidity ^0.36.0;" to set a version of the compiler.
+ --> /home/pavel/tonswap/tonswap-SC/contracts/debot/interfaces/Terminal.sol:1:1:
+  |
+1 | pragma solidity >= 0.6.0;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma ton-solidity ^0.36.0;"
+ --> /home/pavel/tonswap/tonswap-SC/contracts/debot/interfaces/AddressInput.sol
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma ton-solidity ^0.36.0;"
+ --> /home/pavel/tonswap/tonswap-SC/contracts/debot/interfaces/Debot.sol
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma ton-solidity ^0.36.0;"
+ --> /home/pavel/tonswap/tonswap-SC/contracts/debot/interfaces/Terminal.sol
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma ton-solidity ^0.36.0;"
+ --> lilbot.sol
+
+Error: Undeclared identifier.
+  --> lilbot.sol:54:52:
+   |
+54 |         Terminal.print(0, format("Value of A: {}", a));
+   |                                                    ^
+

@@ -1,0 +1,6 @@
+53,54c53,54
+<     function receiveA(uint a) public {
+<         Terminal.print(0, format("Value of A: {}", a));
+---
+>     function receiveA(uint b) public {
+>         Terminal.print(0, format("Value of A: {}", b));

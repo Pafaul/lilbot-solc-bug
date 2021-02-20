@@ -1,0 +1,4 @@
+54c54
+<         Terminal.print(0, format("Value of A: {}", a));
+---
+>         Terminal.print(0, format("Value of A: {}", b));
