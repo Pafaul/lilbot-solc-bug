@@ -2,6 +2,7 @@
 Files for ton solidity compiler bug report
 
 sol files:\
+lilbot_bug.sol - original contract that causes segmentation fault \
 lilbot.1.sol - segmentation fault \
 lilbot.2.sol - solc works normal \
 lilbot.3.sol - segmentation fault 
